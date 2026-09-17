@@ -28,4 +28,37 @@ Repositorio de código abierto con scripts prácticos desarrollados en Python pa
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/Eduardocalde/Mis-Primeros-Proyectos-en-Python.git](https://github.com/Eduardocalde/Mis-Primeros-Proyectos-en-Python.git)
+   # 💬 SYNTAXIS PRO - Chat y Transferencia de Archivos en Tiempo Real
+
+**SYNTAXIS PRO** es una aplicación cliente-servidor de mensajería instantánea desarrollada en Python. Permite la comunicación en tiempo real entre múltiples clientes utilizando comunicación por sockets, multithreading e interfaz gráfica dinámica.
+
+---
+
+## 🚀 Características Principales
+
+* 🔄 **Comunicación Multicliente en Tiempo Real:** Gestión de múltiples conexiones simultáneas en el servidor mediante *threads*.
+* 📁 **Transferencia de Archivos:** Envío y recepción de archivos de cualquier formato directamente a través del chat.
+* 🕒 **Estampado de Hora (Timestamps):** Marcado automático de hora (`HH:MM`) en cada mensaje.
+* 🎨 **Diferenciación Visual:** Colores personalizados para resaltar nombres de usuario e historial de mensajes.
+* 📢 **Notificaciones de Presencia:** Avisos globales cuando un usuario entra o sale de la sala de chat.
+* 💻 **Interfaz Gráfica (GUI):** Ventanas responsivas con selectores de archivo integrados.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* **Lenguaje:** Python 3
+* **Redes y Sockets:** Módulo nativo `socket` (TCP/IP)
+* **Concurrencia:** Módulo `threading` para concurrencia de eventos
+* **Interfaz Gráfica:** `tkinter` / `filedialog`
+
+---
+
+## 🏁 Modo de Uso
+
+1. **Iniciar el Servidor:**
+   Ejecuta el script del servidor para poner a escuchar la aplicación en el puerto asignado (por ejemplo, `5555`):
+   ```bash
+   python servidor.py
+   git clon
+    [https://github.com/Eduardocalde/Mis-Primeros-Proyectos-en-Python.git](https://github.com/Eduardocalde/Mis-Primeros-Proyectos-en-Python.git)
